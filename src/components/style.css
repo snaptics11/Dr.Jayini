@@ -231,7 +231,7 @@ a {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   background: #fff;
 }
-.onlineAppointment h5{
+.onlineAppointment h5 {
   font-size: 17.5px;
 }
 
@@ -645,12 +645,6 @@ a {
     gap: 20px;
   }
 }
-@media screen and (max-width: 320px) {
-  .banner-left-image {
-    height: 350px;
-    width: 100% !important;
-  }
-}
 
 @media screen and (max-width: 575px) {
   .d-flex.gap-4.align-items-center {
@@ -792,8 +786,11 @@ a {
   }
 
   .banner-left-image {
-    height: 370px;
-    width: 300px;
+    height: 100%;
+    width: 100%;
+  }
+  .banner-left-image img {
+    object-fit: contain;
   }
 
   .banner-content {
@@ -996,13 +993,13 @@ a {
   .navbar-logo {
     height: 70px;
     width: 150px;
-}
+  }
   .locations-parent {
     height: 400px;
   }
   .logoSection.d-flex.justify-content-between.container.py-2.align-items-center {
     align-items: flex-start !important;
-}
+  }
 }
 
 @media screen and (min-width: 576px) and (max-width: 766px) {
@@ -1536,28 +1533,31 @@ a {
 .modal-img {
   object-fit: contain;
 }
-.educationText h5{
+.educationText h5 {
   font-weight: 700;
   color: #198754;
 }
-.footer-sub-parent h5{
-  color:  rgb(25 135 84);
+.footer-sub-parent h5 {
+  color: rgb(25 135 84);
   font-weight: 600;
   margin-bottom: 15px;
 }
-.QuickLinksParent{
+.QuickLinksParent {
   width: 70%;
   margin: auto;
 }
-.QuickLinksParent p{
+.QuickLinksParent p {
   font-weight: 600;
   padding-top: 10px;
 }
-@media screen and (max-width:575px){
-  .education-sub-parent .nav-item button,.patientEducatonTabs button{
+@media screen and (max-width: 575px) {
+  .DetailsContainer{
+    padding-inline: 0 !important;
+  }
+  .education-sub-parent .nav-item button,
+  .patientEducatonTabs button {
     font-size: 13px;
   }
-
 }
 /* Ensure responsiveness */
 @media (max-width: 768px) {
@@ -1565,18 +1565,19 @@ a {
     font-size: 14px;
     font-weight: 600;
   }
-    .Gallryprev-btn,
-    .Gallrynext-btn, .Gallryclose-btn{
-        height: 30px !important;
-        width: 30px !important;
-    }
-    .Gallryclose-btn{
-        left: 50%;
-        top: 47%;;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+  .Gallryprev-btn,
+  .Gallrynext-btn,
+  .Gallryclose-btn {
+    height: 30px !important;
+    width: 30px !important;
+  }
+  .Gallryclose-btn {
+    left: 50%;
+    top: 47%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   .dropdown-menu {
     position: static;
@@ -1592,23 +1593,23 @@ a {
 @media screen and (max-width: 991px) {
   a.nav-link.active-link {
     border: none !important;
-}
+  }
   .footer-sub-parent h5 {
     margin-top: 20px;
-}
-.footer-parent {
-  padding-top: 30px;
-}
-  .about-us-page-parent .counter-sub-parent{
-    margin-top: 50px;
+  }
+  .footer-parent {
+    padding-top: 30px;
+  }
+  .about-us-page-parent .counter-sub-parent {
+    margin-top: 70px;
   }
 
-    .tabsContainerParent {
-        flex-direction: column !important;
-      }
-      .innerTabsContainer {
-        width: 100% !important;
-      }
+  .tabsContainerParent {
+    flex-direction: column !important;
+  }
+  .innerTabsContainer {
+    width: 100% !important;
+  }
 
   .dropdown-toggle::after {
     display: none !important;
@@ -1621,7 +1622,7 @@ a {
   height: 200px;
   width: 200px;
 }
-.commonButton{
+.commonButton {
   background-color: #08749b;
   color: #fff;
   border: none;
@@ -1629,9 +1630,7 @@ a {
   border-radius: 25px;
 }
 
-
 /* patient education tabs */
-
 
 .nav-tabs {
   border-bottom: none !important;
@@ -1657,18 +1656,18 @@ a {
 }
 
 .nav-tabs .nav-link.active {
-  color: #0591bf  !important;
-  border-bottom: 3px solid #0591bf  !important;
+  color: #0591bf !important;
+  border-bottom: 3px solid #0591bf !important;
   background: transparent;
 }
 a.nav-link.active-link {
   border-bottom: 3px solid #000;
 }
-@media screen and (max-width:1399px){
-  .QuickLinksParent{
+@media screen and (max-width: 1399px) {
+  .QuickLinksParent {
     width: 100%;
-      }
-      .DetailsContainer{
-        margin-top: 30px;
-      }
+  }
+  .DetailsContainer {
+    margin-top: 30px;
+  }
 }

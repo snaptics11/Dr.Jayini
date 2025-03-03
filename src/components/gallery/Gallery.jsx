@@ -216,7 +216,7 @@ const Gallery = () => {
       gap: 8px;
     }
     .gallery-item {
-      height: 150px;
+      height: 100%;
     }
     .gallery-modal-content {
       max-width: 100%;
