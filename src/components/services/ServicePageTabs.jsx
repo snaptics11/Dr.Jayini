@@ -35,7 +35,7 @@ const ServicePageTabs = () => {
             category: 'Hip & Back'
         },
         {
-            image: 'https://aminoco.com/cdn/shop/articles/FeaturedImage_RheumatoidArthritis.jpg?v=1592868649',
+            image: 'https://sa1s3optim.patientpop.com/assets/images/provider/photos/2725198.jpeg',
             title: 'Managing Arthritis Pain',
             content: 'Effective exercises and lifestyle tips to manage arthritis pain.',
             category: 'Hip & Back'
