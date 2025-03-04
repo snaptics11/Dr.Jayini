@@ -71,7 +71,7 @@ const AboutBanner = () => {
                             <div className="col-md-5">
                                 <div className='yashwanthPokala my-5'>
                                     <p><b>About</b> </p>
-                                    <h4 className='text-success'>Dr Yaswanth Pokala</h4>
+                                    <h4 className='text-success'><b>Dr Yaswanth Pokala</b></h4>
                                     <p>Yaswanth Pokala is an experienced Physiotherapist and Ergonomist with over 10 years of experience. </p>
                                     <br />
                                     <p>His expertise includes sports injury rehabilitation, post-operative recovery, shoulder rotator cuff injuries, knee ligament & meniscus tears, slipped disc management, ergonomics, vertigo management, stroke rehabilitation, dry needling, cupping, and strength conditioning.</p>

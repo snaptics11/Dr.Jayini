@@ -52,6 +52,7 @@ const PatientEducationTabs = () => {
       backgroundColor: "rgb(5 145 191)",
       color: "white",
       height: "fit-content",
+     
     },
     subTab: {
       padding: "15px",
@@ -71,6 +72,7 @@ const PatientEducationTabs = () => {
       fontWeight: "bold",
       cursor: "pointer",
       outline: "none",
+      border:"none"
     },
     detailsContainer: {
       flex: 1,

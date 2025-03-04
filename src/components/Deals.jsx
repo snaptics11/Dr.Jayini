@@ -191,7 +191,7 @@ const Deals = () => {
             <div className="maps">
               <div className="maps-sub-1">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.0389386008187!2d78.3651732!3d17.4578503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93df8a913649%3A0xf69f91838bfc7a2f!2sDr%20Jayini%20P%20Rammohen%20I%20Best%20Orthopedic%20Doctor%20in%20Hyderabad!5e0!3m2!1sen!2sin!4v1734623280532!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2263.3506152949785!2d78.36654845574246!3d17.436397640983685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93ac38a7bc29%3A0xffc164d23af0f2b9!2sOmega%20Multi-speciality%20Hospitals%20Gachibowli!5e0!3m2!1sen!2sin!4v1741067254795!5m2!1sen!2sin"
                   width="100%"
                   height="220"
                   allowFullScreen=""
@@ -199,17 +199,17 @@ const Deals = () => {
                   referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>
                 <div className="maps-text">
-                  <h4>Kondapur Clinic</h4>
+                  <h4>Omega Hospital</h4>
                   <p>
-                    5th Floor, Above Sachdev Sports, Sri Tirumala Subash Arcade,
-                    Kondapur X Roads, Kothaguda, Hyderabad, Telangana 500084.
+                    CHR Lane, Rd Number 1, Seven Hills Colony, Gachibowli,
+                    Hyderabad, Telangana 500032
                   </p>
                   <button className="bg-success mt-3">
                     <a
                       className="text-white"
                       target="_blank"
                       rel="noreferrer"
-                      href="https://maps.app.goo.gl/9JwBqjrDCkucBKbR6"
+                      href="https://maps.app.goo.gl/pMKafMJa9WcG2h4GA"
                     >
                       Get Direction
                     </a>

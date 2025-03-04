@@ -61,6 +61,7 @@ a {
 .banner-left-image img {
   height: 100%;
   width: 100%;
+  object-fit: contain;
 }
 
 .banner-left h3 {
@@ -272,7 +273,7 @@ a {
 
 .counter-sub-parent .col-md-6:nth-child(1) {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 .footer-content1 p,
@@ -286,7 +287,7 @@ a {
 .counter-sub-parent {
   color: rgb(2, 83, 110);
   font-weight: 600;
-  padding: 60px 40px;
+  padding: 60px 0px;
 }
 
 .counter-sub-parent h2 {
@@ -296,7 +297,7 @@ a {
 
 .counter-content {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .maps {
@@ -721,7 +722,7 @@ a {
 
   .counter-content {
     font-size: 12px;
-    justify-content: space-evenly;
+    justify-content: space-between;
     gap: 15px;
   }
 
@@ -775,7 +776,7 @@ a {
   }
 
   .counter-sub-parent {
-    padding: 20px 10px 20px 10px;
+    padding: 20px 0;
   }
 
   .banner-left {

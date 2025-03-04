@@ -55,15 +55,13 @@ const Footer = () => {
               </div>
               <div className="col-md-3">
                 <div className="footer-content1">
-                  <h5>Kondapur Clinic :</h5>
+                  <h5>Omega Hospital :</h5>
                   <div className="footer-address">
                     <i class="fa-solid fa-location-dot"></i>
                     <div>
                       <p className="mb-2">Address :</p>
                       <p>
-                        5th Floor, Above Sachdev Sports, Sri Tirumala Subash
-                        Arcade, Kondapur X Roads, Kothaguda, Hyderabad,
-                        Telangana 500084.
+                      CHR Lane, Rd Number 1, Seven Hills Colony, Gachibowli, Hyderabad, Telangana 500032.
                       </p>
                     </div>
                   </div>

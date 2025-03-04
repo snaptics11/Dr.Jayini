@@ -5,114 +5,118 @@ export const tabs = [
     content: [
       {
         content1: {
-          title: "Head Rolls",
+          title: "Neck Isometric Exercises",
           text: [
-            "Either sit in a chair or stand distributing your weight evenly on both feet.",
-            " Gently bend your head down, bringing your chin toward your chest.",
-            "Roll your head to the right so that your ear is over your shoulder (Fig 1). Hold this position for 5 seconds.",
-            "Gently roll your head back toward your chest and to the left. Turn your head so that your ear is over your left shoulder (Fig 2). Hold for 5 seconds.",
-            "Slowly roll your head back and in a clockwise circle thrice (Fig 3)",
-            "Reverse directions and slow roll your head in a counterclockwise circle thrice. (Fig 4)",
+            "Stand upright with your back straight and feet shoulder-width apart.",
+            "Place your right hand on the right side of your head and gently press while resisting the movement with your neck muscles. Hold for 5 seconds.",
+            "Place your left hand on the left side of your head and press while resisting. Hold for 5 seconds.",
+            "Move your hand to the back of your head and press backward while keeping your neck steady. Hold for 5 seconds.",
+            "Repeat the exercise 3 times in each direction.",
           ],
           image: "/assets/images/physiotherapy/Exercises_page-0002.jpg",
         },
       },
       {
         content2: {
-          title: "Kneeling Back Extension",
+          title: "Chin Tucks",
           text: [
-            "Begin on your hands and knees with your shoulders positioned over your hands.",
-            " Move onto your arms, round your shoulders and allow your low back to drop toward the floor. Hold for 5 seconds.",
-            "Move backward and sit on your buttocks close to your heels. Extend your arms and hold for 5 seconds.",
+            "Lie on a mat with your knees bent and feet flat on the floor. Keep your arms relaxed at your sides.",
+            "Gently tuck your chin toward your chest without lifting your head, creating a slight double chin.",
+            "Hold this position for 5 seconds, feeling a light stretch at the back of your neck.",
+            "Relax and return to the starting position.",
+            "Repeat 10 times.",
           ],
           image: "/assets/images/physiotherapy/Exercises_page-0003.jpg",
         },
       },
       {
         content3: {
-          title: "Sitting Rotation Stretch",
+          title: "Trapezius & Sternocleidomastoid Stretch",
           text: [
-            "Sit on the floor with both legs spread straight in front of you. Cross one leg over the other.",
-            "Slowly twist toward your bent leg, and support with your hand behind you.",
-            "Place your other arm on the side of your bent thigh and use it twist further.",
-            "Look over your shoulder and hold the stretch for 30 seconds. Come back to center.",
-            "Repeat on the other side. Repeat the entire sequence 4 times.",
+            "Stand upright with your back straight and shoulders relaxed.",
+            "Slowly tilt your head to the right, bringing your right ear toward your right shoulder while keeping your shoulders down. Hold for 10 seconds, feeling a stretch on the left side of your neck and upper shoulder.",
+            "For a deeper stretch, gently place your right hand on the left side of your head and apply slight pressure.",
+            "Return to the center and repeat on the left side."
           ],
           image: "/assets/images/physiotherapy/Exercises_page-0004.jpg",
         },
       },
       {
         content4: {
-          title: "Modified Seat Side Straddle",
+          title: "Sternocleidomastoid Stretch",
           text: [
-            "Sit on the floor with one leg extended to the side and the other leg bent.",
-            " Keep your back straight and bend from your hips toward the foot of your straight leg. Reach your hands toward your toes of the extended leg, and hold for 5 seconds",
-            "Gradually round your spine and bring your hands to your shin or ankle. Bring your head down close to your knee as far as possible.",
-            "Hold for 30 seconds and then relax for 30 seconds.",
-            "Repeat on the other side. Repeat the sequence 10 times.",
+            "Turn your head to the right, looking over your shoulder while keeping your body still.",
+            "Hold for 10 seconds, feeling a stretch along the front and side of your neck.",
+            "Return to the center and repeat on the left side.",
+            "Perform 2-3 times on each side."
           ],
           image: "/assets/images/physiotherapy/Exercises_page-0005.jpg",
         },
       },
       {
         content5: {
-          title: "Knee to Chest",
+          title: "Side Upper Thorax & posterior Stretch",
           text: [
-            "Lie with your back on the floor.",
-            "Lift one leg and bring your knee toward your chest. Grasp your knee or shin and pull your leg in as far as possible.",
-            "Tighten your abdominals, pressing your spine to the floor. Hold for 5 seconds.",
-            "Repeat on the other side. Then pull both legs in together. Repeat the sequence 10 times.",
+            "Stand with your feet shoulder-width apart.",
+            "Raise your right arm overhead and bend your torso to the left, keeping your body facing forward.",
+            "Feel a stretch along the right side of your upper chest and ribcage. Hold for 10 seconds.",
+            "Return to the center and repeat on the other side.",
+            "Perform 2-3 times on each side."
           ],
           image: "/assets/images/physiotherapy/Exercises_page-0006.jpg",
         },
       },
       {
         content6: {
-          title: "Bird Dog",
+          title: "Pendular Exercises",
           text: [
-            "Begin with your hands and knees, positioning your shoulders over your hands and your hips right over your knees.",
-            "Tighten your abdominal muscles and raise one arm straight out to the shoulder level in alignment with your body. Hold until you feel balanced.",
-            "Slowly lift and extend the opposite leg straight out from your hip.",
-            "Tighten the muscles of your buttocks and thigh, holding this position for 15 seconds.",
-            "Return to the start position and repeat with the other arm and leg.",
+            "Stand with your feet shoulder-width apart and place your unaffected hand on a table or chair for support.",
+            "Lean forward slightly, allowing your affected arm to hang freely.",
+            "Gently swing your arm forward and backward in a relaxed motion. Repeat 10 times.",
+            "Move your arm in small circles clockwise, then counterclockwise, for 10 repetitions each.",
+            "Slowly sway your body side to side, letting your arm move naturally. Repeat 10 times.",
+            "Perform the exercise in a slow, controlled manner, keeping your shoulder relaxed."
           ],
           image: "/assets/images/physiotherapy/Exercises_page-0007.jpg",
         },
       },
       {
         content7: {
-          title: "Plank",
+          title: "Middle Deltoid Stretch",
           text: [
-            "Lie on your stomach with your forearms on the floor and your elbows directly below your shoulders.",
-            "Tightening your abdominal muscles, lift your hips off the floor.",
-            "Squeeze your gluteal muscles and lift your knees off the floor.",
-            "Keep your body straight and hold for 30 seconds. If you find it difficult to hold this position, bring your knees back to the floor. Hold with just your hips lifted.",
-            "Return to the start position and rest for 30 seconds. Repeat.",
+            "Stand upright with your back straight and shoulders relaxed.",
+            "Bring your right arm across your chest at shoulder height.",
+            "Use your left hand to gently pull your right arm closer to your chest, feeling a stretch in the middle of your shoulder.",
+            "Hold for 10 seconds while keeping your shoulders down and relaxed.",
+            "Return to the starting position and repeat on the left side.",
+            "Perform 2-3 times on each side."
           ],
           image: "/assets/images/physiotherapy/Exercises_page-0008.jpg",
         },
       },
       {
         content8: {
-          title: "Modified Side Plank",
+          title: "Active Assisted Internal Rotation with Cane",
           text: [
-            "Lie on your side on a firm surface, with your bottom leg slightly bent and top leg straight. Bring your elbow directly under your shoulder, with your forearm extended in front of you.",
-            "Tighten your abdominal muscles and raise your hip off the floor.",
-            "If you can, straighten your bottom leg and lift your knee off the floor.",
-            "Keep your body straight, holding it in this position for 15 seconds.",
-            "Gradually return to the start position and repeat on the other side.",
+            "Stand upright, holding a cane or stick with both hands behind your back.",
+            "Grip the cane with your right hand positioned lower and your left hand holding the top.",
+            "Gently push the cane upward with your left hand, assisting your right arm in rotating internally.",
+            "Hold the stretch for 5-10 seconds, feeling a gentle stretch in your shoulder.",
+            "Slowly return to the starting position.",
+            "Repeat the movement 10 times, then switch sides."
           ],
           image: "/assets/images/physiotherapy/Exercises_page-0009.jpg",
         },
       },
       {
         content9: {
-          title: "Hip Bridge",
+          title: "Shoulder Rotations with Cane",
           text: [
-            "Lie on your back on the floor with your arms at your sides, your knees bent, and your feet flat on the floor.",
-            "Tighten your abdominal and gluteal muscles and lift your pelvis, making sure your body is in a straight line from your shoulders to your knees.",
-            "Hold this position for 15 seconds.",
-            "Gradually return to the start position and repeat.",
+            "Stand upright, holding a cane with both hands in front of you, slightly wider than shoulder-width apart.",
+            "Keep your elbows bent to 90° and slowly move the cane to the right, rotating your shoulders. Hold for 5 seconds.",
+            "Return to the center and then move the cane to the left, feeling the stretch. Hold for 5 seconds.",
+            "Continue alternating sides in a controlled motion.",
+            "Repeat 10 times on each side."
           ],
           image: "/assets/images/physiotherapy/Exercises_page-0010.jpg",
         },
@@ -310,7 +314,7 @@ export const tabs = [
             "Slowly bend and straighten your knee.",
             "Repeat 10 times.",
           ],
-            image: "/assets/images/physiotherapy/Exercises_page-0034.jpg",
+          image: "/assets/images/physiotherapy/Exercises_page-0034.jpg",
         },
       },
       {
@@ -322,7 +326,8 @@ export const tabs = [
             "Do not hold your breath.",
             "Hold for 5 seconds, relax, and repeat 10 times.",
           ],
-          image: "/assets/images/physiotherapy/Exercises_page-0035.jpg",},
+          image: "/assets/images/physiotherapy/Exercises_page-0035.jpg",
+        },
       },
       {
         content4: {
@@ -334,7 +339,8 @@ export const tabs = [
             "Hold for 5 seconds.",
             "Gradually return to upright position, and repeat 10 times.",
           ],
-          image: "/assets/images/physiotherapy/Exercises_page-0036.jpg",},
+          image: "/assets/images/physiotherapy/Exercises_page-0036.jpg",
+        },
       },
       {
         content5: {
@@ -345,7 +351,8 @@ export const tabs = [
             "Then slowly lower your heels to the floor.",
             "Repeat 10 times.",
           ],
-          image: "/assets/images/physiotherapy/Exercises_page-0037.jpg",},
+          image: "/assets/images/physiotherapy/Exercises_page-0037.jpg",
+        },
       },
       {
         content6: {
@@ -357,7 +364,8 @@ export const tabs = [
             "Gradually lower your leg.",
             "Repeat 10 times.",
           ],
-          image: "/assets/images/physiotherapy/Exercises_page-0038.jpg",},
+          image: "/assets/images/physiotherapy/Exercises_page-0038.jpg",
+        },
       },
       {
         content7: {
@@ -368,7 +376,8 @@ export const tabs = [
             "Hold for 20 seconds, then relax.",
             "Repeat 5 times on each side.",
           ],
-          image: "/assets/images/physiotherapy/Exercises_page-0039.jpg",},
+          image: "/assets/images/physiotherapy/Exercises_page-0039.jpg",
+        },
       },
       {
         content8: {
@@ -380,7 +389,8 @@ export const tabs = [
             "Hold for 20 seconds.",
             "Repeat 5 times on each side.",
           ],
-          image: "/assets/images/physiotherapy/Exercises_page-0040.jpg",},
+          image: "/assets/images/physiotherapy/Exercises_page-0040.jpg",
+        },
       },
       {
         content9: {
@@ -391,7 +401,8 @@ export const tabs = [
             "Hold for 20 seconds, relax.",
             "Repeat 5 times on each side.",
           ],
-          image: "/assets/images/physiotherapy/Exercises_page-0041.jpg",},
+          image: "/assets/images/physiotherapy/Exercises_page-0041.jpg",
+        },
       },
       {
         content10: {
@@ -403,7 +414,8 @@ export const tabs = [
             "Hold for 20 seconds, relax.",
             "Repeat 5 times on each side.",
           ],
-          image: "/assets/images/physiotherapy/Exercises_page-0042.jpg",},
+          image: "/assets/images/physiotherapy/Exercises_page-0042.jpg",
+        },
       },
       {
         content11: {
@@ -416,7 +428,8 @@ export const tabs = [
             "Straighten one knee and raise the opposite arm overhead, alternating sides.",
             "Walk the ball forward and backward with your legs.",
           ],
-          image: "/assets/images/physiotherapy/Exercises_page-0043.jpg",},
+          image: "/assets/images/physiotherapy/Exercises_page-0043.jpg",
+        },
       },
       {
         content12: {
@@ -429,7 +442,8 @@ export const tabs = [
             "Raise one heel and raise the opposite arm overhead, alternating sides.",
             "March by slowly raising one foot 2 inches from the floor, alternating sides.",
           ],
-          image: "/assets/images/physiotherapy/Exercises_page-0044.jpg",},
+          image: "/assets/images/physiotherapy/Exercises_page-0044.jpg",
+        },
       },
       {
         content13: {
@@ -439,7 +453,8 @@ export const tabs = [
             "Slowly bend your knees 45° to 90° and hold for 5 seconds. Straighten your knees.",
             "Slowly bend your knees 45° to 90° while raising both arms overhead.",
           ],
-          image: "/assets/images/physiotherapy/Exercises_page-0045.jpg",},
+          image: "/assets/images/physiotherapy/Exercises_page-0045.jpg",
+        },
       },
       {
         content14: {
@@ -452,7 +467,8 @@ export const tabs = [
             "Combine raising alternate arms and legs.",
             "Bend one knee and slowly lift the leg, alternating sides.",
           ],
-          image: "/assets/images/physiotherapy/Exercises_page-0046.jpg",},
+          image: "/assets/images/physiotherapy/Exercises_page-0046.jpg",
+        },
       },
       {
         content15: {
@@ -463,7 +479,8 @@ export const tabs = [
             "Walk your hands out in front of the ball until the ball is under your legs, then slowly raise alternating arms overhead.",
             "Walk your hands out in front of the ball and gradually do push-ups.",
           ],
-          image: "/assets/images/physiotherapy/transparent_exercise_image.png",},
+          image: "/assets/images/physiotherapy/transparent_exercise_image.png",
+        },
       },
     ],
   },
@@ -495,7 +512,7 @@ export const tabs = [
             "Come back to the center.",
             "Repeat on the other side. Repeat the entire sequence 4 times.",
           ],
-            image: "/assets/images/physiotherapy/Exercises_page-0049.jpg",
+          image: "/assets/images/physiotherapy/Exercises_page-0049.jpg",
         },
       },
       {
@@ -511,7 +528,8 @@ export const tabs = [
             "Then pull both legs in together.",
             "Repeat the sequence 10 times.",
           ],
-          image: "/assets/images/physiotherapy/Exercises_page-0050.jpg",},
+          image: "/assets/images/physiotherapy/Exercises_page-0050.jpg",
+        },
       },
       {
         content4: {
@@ -523,7 +541,8 @@ export const tabs = [
             "Hold this position for 30 seconds.",
             "Repeat it with the other leg.",
           ],
-          image: "/assets/images/physiotherapy/Exercises_page-0051.jpg",},
+          image: "/assets/images/physiotherapy/Exercises_page-0051.jpg",
+        },
       },
       {
         content5: {
@@ -535,7 +554,8 @@ export const tabs = [
             "Gradually lower your leg and relax it for 2 seconds.",
             "Repeat.",
           ],
-          image: "/assets/images/physiotherapy/Exercises_page-0052.jpg",},
+          image: "/assets/images/physiotherapy/Exercises_page-0052.jpg",
+        },
       },
       {
         content6: {
@@ -548,7 +568,8 @@ export const tabs = [
             "Lower your leg and rest for 2 seconds.",
             "Repeat.",
           ],
-          image: "/assets/images/physiotherapy/Exercises_page-0053.jpg",},
+          image: "/assets/images/physiotherapy/Exercises_page-0053.jpg",
+        },
       },
       {
         content7: {
@@ -560,7 +581,8 @@ export const tabs = [
             "Gradually lower your leg down to the floor, counting 1 to 5.",
             "Repeat on the other side.",
           ],
-          image: "/assets/images/physiotherapy/Exercises_page-0054.jpg",},
+          image: "/assets/images/physiotherapy/Exercises_page-0054.jpg",
+        },
       },
       {
         content8: {
@@ -572,7 +594,8 @@ export const tabs = [
             "Gradually lower your leg back to the start position, counting 1 to 5.",
             "Repeat the exercise on the other side.",
           ],
-          image: "/assets/images/physiotherapy/Exercises_page-0055.jpg",},
+          image: "/assets/images/physiotherapy/Exercises_page-0055.jpg",
+        },
       },
       {
         content9: {
@@ -585,7 +608,8 @@ export const tabs = [
             "Slowly lower your leg back to the start position, counting 1 to 5.",
             "Repeat this on the other side.",
           ],
-          image: "/assets/images/physiotherapy/Exercises_page-0056.jpg",},
+          image: "/assets/images/physiotherapy/Exercises_page-0056.jpg",
+        },
       },
     ],
   },
@@ -615,7 +639,7 @@ export const tabs = [
             "Hold this position for 30 to 60 seconds.",
             "Repeat with the other leg.",
           ],
-            image: "/assets/images/physiotherapy/Exercises_page-0059.jpg",
+          image: "/assets/images/physiotherapy/Exercises_page-0059.jpg",
         },
       },
       {
@@ -628,7 +652,8 @@ export const tabs = [
             "Hold this position for 30 seconds.",
             "Repeat it with the other leg.",
           ],
-          image: "/assets/images/physiotherapy/Exercises_page-0060.jpg",},
+          image: "/assets/images/physiotherapy/Exercises_page-0060.jpg",
+        },
       },
       {
         content4: {
@@ -640,7 +665,8 @@ export const tabs = [
             "Put your weight in your heels. Hold the squat for 5 seconds.",
             "Pushing through your heels, bring your body back up to standing.",
           ],
-          image: "/assets/images/physiotherapy/Exercises_page-0061.jpg",},
+          image: "/assets/images/physiotherapy/Exercises_page-0061.jpg",
+        },
       },
       {
         content5: {
@@ -651,7 +677,8 @@ export const tabs = [
             "Hold this position for 5 seconds and then relax.",
             "Repeat.",
           ],
-          image: "/assets/images/physiotherapy/Exercises_page-0062.jpg",},
+          image: "/assets/images/physiotherapy/Exercises_page-0062.jpg",
+        },
       },
       {
         content6: {
@@ -663,7 +690,8 @@ export const tabs = [
             "Raise the heel of your affected foot as high as possible, before lowering it.",
             "Repeat 10 times.",
           ],
-          image: "/assets/images/physiotherapy/Exercises_page-0063.jpg",},
+          image: "/assets/images/physiotherapy/Exercises_page-0063.jpg",
+        },
       },
       {
         content7: {
@@ -674,7 +702,8 @@ export const tabs = [
             "Squeeze your thigh muscles and hold this position for 5 seconds.",
             "Relax and bring your foot to the floor. Repeat.",
           ],
-          image: "/assets/images/physiotherapy/Exercises_page-0064.jpg",},
+          image: "/assets/images/physiotherapy/Exercises_page-0064.jpg",
+        },
       },
       {
         content8: {
@@ -685,7 +714,8 @@ export const tabs = [
             "Tighten the thigh muscle of your affected leg, and slowly raise it about 10 inches above the floor.",
             "Hold this position for 5 seconds and then relax and bring it down.",
           ],
-          image: "/assets/images/physiotherapy/Exercises_page-0065.jpg",},
+          image: "/assets/images/physiotherapy/Exercises_page-0065.jpg",
+        },
       },
       {
         content9: {
@@ -696,7 +726,8 @@ export const tabs = [
             "Hold this position for 5 seconds.",
             "Lower your leg and rest it for 2 seconds. Repeat.",
           ],
-          image: "/assets/images/physiotherapy/Exercises_page-0066.jpg",},
+          image: "/assets/images/physiotherapy/Exercises_page-0066.jpg",
+        },
       },
       {
         content10: {
@@ -707,7 +738,8 @@ export const tabs = [
             "Hold this position for 5 seconds.",
             "Gradually lower your leg and relax it for 2 seconds. Repeat.",
           ],
-          image: "/assets/images/physiotherapy/Exercises_page-0067.jpg",},
+          image: "/assets/images/physiotherapy/Exercises_page-0067.jpg",
+        },
       },
       {
         content11: {
@@ -719,7 +751,8 @@ export const tabs = [
             "Hold this position for 5 seconds.",
             "Lower your leg and rest for 2 seconds. Repeat.",
           ],
-          image: "/assets/images/physiotherapy/Exercises_page-0068.jpg",},
+          image: "/assets/images/physiotherapy/Exercises_page-0068.jpg",
+        },
       },
       {
         content12: {
@@ -730,7 +763,8 @@ export const tabs = [
             "Flex your foot. Then slowly straighten your leg directly in front of you, pushing against the elastic band.",
             "Hold this position for 2 seconds. Relax and bring your leg to the floor. Repeat.",
           ],
-          image: "/assets/images/physiotherapy/Exercises_page-0069.jpg",},
+          image: "/assets/images/physiotherapy/Exercises_page-0069.jpg",
+        },
       },
     ],
   },
@@ -747,7 +781,7 @@ export const tabs = [
             "Hold this stretch for 30 seconds. Then relax for 30 seconds.",
             "Repeat.",
           ],
-            image: "/assets/images/physiotherapy/Exercises_page-0071.jpg",
+          image: "/assets/images/physiotherapy/Exercises_page-0071.jpg",
         },
       },
       {
@@ -760,7 +794,8 @@ export const tabs = [
             "Hold the stretch for 30 seconds. Then relax for 30 seconds.",
             "Repeat.",
           ],
-          image: "/assets/images/physiotherapy/Exercises_page-0072.jpg",},
+          image: "/assets/images/physiotherapy/Exercises_page-0072.jpg",
+        },
       },
       {
         content3: {
@@ -769,7 +804,8 @@ export const tabs = [
             "Sit comfortably on a chair with both feet planted on the floor.",
             "For 2 minutes, roll a golf ball under the arch of your affected foot.",
           ],
-          image: "/assets/images/physiotherapy/Exercises_page-0073.jpg",},
+          image: "/assets/images/physiotherapy/Exercises_page-0073.jpg",
+        },
       },
       {
         content4: {
@@ -781,7 +817,8 @@ export const tabs = [
             "Hold in this position for 30 seconds. Then relax for 30 seconds.",
             "Repeat thrice.",
           ],
-          image: "/assets/images/physiotherapy/Exercises_page-0074.jpg",},
+          image: "/assets/images/physiotherapy/Exercises_page-0074.jpg",
+        },
       },
       {
         content5: {
@@ -792,7 +829,8 @@ export const tabs = [
             "Raise the heel of your affected foot as much as you can, before you lower it.",
             "Repeat this about 10 times.",
           ],
-          image: "/assets/images/physiotherapy/Exercises_page-0075.jpg",},
+          image: "/assets/images/physiotherapy/Exercises_page-0075.jpg",
+        },
       },
       {
         content6: {
@@ -801,7 +839,8 @@ export const tabs = [
             "Sit down, in such a way that your feet do not touch the floor.",
             "Using your foot, write each alphabet in the air. Lead with your big toe.",
           ],
-          image: "/assets/images/physiotherapy/Exercises_page-0076.jpg",},
+          image: "/assets/images/physiotherapy/Exercises_page-0076.jpg",
+        },
       },
       {
         content7: {
@@ -811,7 +850,8 @@ export const tabs = [
             "Using your toes, pick up one marble at a time, and place them into a bowl.",
             "Repeat this exercise till you have picked up all the marbles.",
           ],
-          image: "/assets/images/physiotherapy/Exercises_page-0077.jpg",},
+          image: "/assets/images/physiotherapy/Exercises_page-0077.jpg",
+        },
       },
       {
         content8: {
@@ -821,7 +861,8 @@ export const tabs = [
             "Using your toes, grab the center of the towel, and curl the towel toward you.",
             "Relax a bit and repeat it.",
           ],
-          image: "/assets/images/physiotherapy/Exercises_page-0078.jpg",},
+          image: "/assets/images/physiotherapy/Exercises_page-0078.jpg",
+        },
       },
       {
         content9: {
@@ -833,7 +874,8 @@ export const tabs = [
             "For plantar flexion, wrap the elastic band around your foot and hold the ends in your hand.",
             "Slowly return to the start position, gently pointing your toes. Repeat 10 times.",
           ],
-          image: "/assets/images/physiotherapy/Exercises_page-0079.jpg",},
+          image: "/assets/images/physiotherapy/Exercises_page-0079.jpg",
+        },
       },
     ],
   },

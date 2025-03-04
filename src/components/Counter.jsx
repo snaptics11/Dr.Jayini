@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 const Counter = () => {
   const [years, setYears] = useState(0);
@@ -35,31 +35,33 @@ const Counter = () => {
 
   return (
     <>
-      <div className="counter-parent">
-        <div className="counter-sub-parent">
-          <div className="row p-0 m-0">
-            <div className="col-md-6">
-              <div className="d-flex gap-5 align-items-center">
-                <h3 className="text-white">{years}+ </h3>
-                <h2>
-                  Years Excellence in <br />
-                  Orthopedics
-                </h2>
+      <div className="counter-parent" style={{  backgroundColor:"#e3effa"}}>
+        <div className="container-lg">
+          <div className="counter-sub-parent">
+            <div className="row p-0 m-0">
+              <div className="col-md-6">
+                <div className="d-flex gap-5 align-items-center">
+                  <h3 className="text-white">{years}+ </h3>
+                  <h2>
+                    Years Excellence in <br />
+                    Orthopedics
+                  </h2>
+                </div>
               </div>
-            </div>
-            <div className="col-md-6">
-              <div className="counter-content">
-                <div>
-                  <h2>{patients}+</h2>
-                  <p className="text-danger">Happy Patients</p>
-                </div>
-                <div>
-                  <h2>{surgeries}+</h2>
-                  <p className="text-danger">Ortho Surgeries</p>
-                </div>
-                <div>
-                  <h2>{awards}</h2>
-                  <p className="text-danger">Awards</p>
+              <div className="col-md-6">
+                <div className="counter-content">
+                  <div>
+                    <h2>{patients}+</h2>
+                    <p className="text-danger">Happy Patients</p>
+                  </div>
+                  <div>
+                    <h2>{surgeries}+</h2>
+                    <p className="text-danger">Ortho Surgeries</p>
+                  </div>
+                  <div>
+                    <h2>{awards}</h2>
+                    <p className="text-danger">Awards</p>
+                  </div>
                 </div>
               </div>
             </div>

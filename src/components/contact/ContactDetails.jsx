@@ -34,9 +34,8 @@ const ContactDetails = () => {
                                         <i className="fa-solid fa-location-dot"></i>
                                         <div>
                                             <h5>Address 1</h5>
-                                            <p>
-                                                5th Floor, Above Sachdev Sports, Sri Tirumala’s Subash Arcade, H.1-62/1
-                                                Kondapur, X Roads, Kothaguda, Hyderabad, Telangana 500084
+                                            <p>Omega Hospital ,<br />
+                                            CHR Lane, Rd Number 1, Seven Hills Colony, Gachibowli, Hyderabad, Telangana 500032
                                             </p>
                                         </div>
                                     </div>

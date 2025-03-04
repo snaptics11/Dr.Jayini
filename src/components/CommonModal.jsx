@@ -31,7 +31,7 @@ const CommonModal = ({ selectedDate }) => {
   const [isLoading, setIsLoading] = useState(false);
 
   const timingsByAddress = {
-    Address1: ["10:00 am - 02:00 pm"],
+    Address1: ["10:00 am - 03:00 pm"],
     Address2: ["03:30 pm - 08:30 pm"],
   };
 
@@ -122,7 +122,7 @@ const CommonModal = ({ selectedDate }) => {
         aria-hidden="true"
       >
         <div class="modal-dialog modal-lg">
-          <div class="modal-content" style={{width: "100%"}}>
+          <div class="modal-content" style={{ width: "100%" }}>
             <div class="modal-header">
               <h1 class="modal-title fs-5" id="exampleModalLabel">
                 Request An Appointment
@@ -150,12 +150,8 @@ const CommonModal = ({ selectedDate }) => {
                       <i className="fa-solid fa-location-dot"></i>
                     </div>
                     <div>
-                      <h5>Kondapur Clinic</h5>
-                      <p>
-                        5th Floor, Above Sachdev Sports, Sri Tirumala Subash
-                        Arcade, Kondapur X Roads, Kothaguda, Hyderabad,
-                        Telangana 500084.
-                      </p>
+                      <h5>Omega Hospital</h5>
+                      <p>CHR Lane, Rd Number 1, Seven Hills Colony, Gachibowli, Hyderabad, Telangana 500032</p>
                     </div>
                   </div>
                   <div className="contact-location">
