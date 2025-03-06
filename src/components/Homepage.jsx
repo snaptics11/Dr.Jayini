@@ -19,7 +19,7 @@ const Homepage = () => {
     <Excellence/>
     <Counter/>
     <Locations/>
-    <Education/>
+    {/* <Education/> */}
     {/* <Footer/> */}
     </>
   )

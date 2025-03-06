@@ -108,7 +108,7 @@ const Header = () => {
                     OUR SERVICES
                   </Link>
                 </li>
-                <li className="nav-item dropdown">
+                {/* <li className="nav-item dropdown">
                   <Link
                     className={`nav-link dropdown-toggle ${
                       isActive("/patient-education") ? "active-link" : ""
@@ -118,7 +118,7 @@ const Header = () => {
                   >
                     PATIENT EDUCATION
                   </Link>
-                </li>
+                </li> */}
 
                 <li className="nav-item">
                   <Link
