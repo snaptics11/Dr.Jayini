@@ -90,9 +90,23 @@ body{
     flex-wrap: wrap;
   }
   @media screen and (max-width: 991px) {
+    .contentContainer-tabs .subTabsContainer{
+      width: 100% !important;
+      flex-direction: row !important;
+      flex-wrap: wrap !important;
+      background-color: transparent !important;
+      gap: 10px !important;
+    }
+    .contentContainer-tabs .subTabsContainer button{
+      width: fit-content;
+      color: #000 !important;
+      padding: 5px !important;
+      background:none !important;
+      border: none !important;
+    }
 
     .contentContainer-tabs{
-      flex-direction: column !important;
+      flex-direction: column-reverse !important;
     }
     .subTabsContainer{
       margin: auto;

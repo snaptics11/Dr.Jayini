@@ -35,7 +35,7 @@ const Counter = () => {
 
   return (
     <>
-      <div className="counter-parent" style={{  backgroundColor:"#e3effa"}}>
+      <div className="counter-parent">
         <div className="container-lg">
           <div className="counter-sub-parent">
             <div className="row p-0 m-0">

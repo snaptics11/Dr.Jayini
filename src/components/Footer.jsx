@@ -61,7 +61,7 @@ const Footer = () => {
                     <div>
                       <p className="mb-2">Address :</p>
                       <p>
-                      CHR Lane, Rd Number 1, Seven Hills Colony, Gachibowli, Hyderabad, Telangana 500032.
+                      CHR lane, road number 1, seven hills colony, Gachibowli, Hyderabad, Telangana 500032.
                       </p>
                     </div>
                   </div>
