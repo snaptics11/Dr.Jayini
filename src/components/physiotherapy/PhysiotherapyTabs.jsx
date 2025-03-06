@@ -8,57 +8,81 @@ const PhysiotherapyTabs = () => {
 
   return (
     <>
-    <CommonBanner title={"Physiotherapy"} />
- 
-    <div className="container-lg">
+      <CommonBanner title={"Physiotherapy"} />
 
-      <div className="tabsContainerParent" style={styles.container}>
-        <div className="innerTabsContainer" style={styles.tabsContainer}>
-          {tabs.map((tab, index) => (
-            <button
-              key={index}
-              onClick={() => setActiveTab(index)}
-              style={activeTab === index ? styles.activeTab : styles.tab}
-            >
-              {tab.title}
-            </button>
-          ))}
-        </div>
+      <div className="container-lg">
+        <div className="tabsContainerParent" style={styles.container}>
+          <div className="innerTabsContainer" style={styles.tabsContainer}>
+            {tabs.map((tab, index) => (
+              <button
+                key={index}
+                onClick={() => setActiveTab(index)}
+                style={activeTab === index ? styles.activeTab : styles.tab}
+              >
+                {tab.title}
+              </button>
+            ))}
+          </div>
 
-        <div className="tabsContent-Conatiner" style={styles.contentContainer}>
-          <h3 style={styles.title}>{tabs[activeTab]?.title} : </h3>
-          {tabs[activeTab]?.content?.map((item, index) => {
-            // Get the content key dynamically (content1, content2, etc.)
-            const contentKey = `content${index + 1}`;
-            const content = item[contentKey];
+          <div
+            className="tabsContent-Conatiner"
+            style={styles.contentContainer}
+          >
+            <h3 style={styles.title}>{tabs[activeTab]?.title} : </h3>
+            {tabs[activeTab]?.content?.map((item, index) => {
+              // Get the content key dynamically (content1, content2, etc.)
+              const contentKey = `content${index + 1}`;
+              const content = item[contentKey];
 
-            return (
-              <div key={index}>
-                <div className="row align-items-center border p-3 mb-3 border-bottom">
-                  <div className="col-md-8">
-                    <h4
-                      style={{ color: "rgb(5, 145, 191)", fontWeight: "600" }}
-                    >
-                      {content?.title}
-                    </h4>
-                    <ul className="mt-4">
-                      {content?.text?.map((text, textIndex) => (
-                        <li key={textIndex}>{text}</li>
-                      ))}
-                    </ul>
-                  </div>
-                  <div className="col-md-4">
-                    <div className="excerciseImage">
-                      <img src={content?.image} alt={content?.title} />
+              return (
+                <div key={index}>
+                  <div className="row align-items-center border p-3 mb-3 border-bottom">
+                    <div className="col-md-8">
+                      <h4
+                        style={{
+                          color: "rgb(5, 145, 191)",
+                          fontWeight: "600",
+                          textTransform: "capitalize",
+                        }}
+                      >
+                        {content?.title}
+                      </h4>
+                      <ul className="mt-4">
+                        {content?.text?.map((text, textIndex) => (
+                          <li key={textIndex}>{text}</li>
+                        ))}
+                      </ul>
+                    </div>
+                    <div className="col-md-4">
+                      <div className="excerciseImage">
+                        <img
+                          src={content?.image}
+                          alt={content?.title}
+                          style={{ maxWidth: "100%", height: "auto" }}
+                        />
+                        {content?.image2 && (
+                          <img
+                            src={content.image2}
+                            alt={content?.title + " 2"}
+                            style={{ maxWidth: "100%", height: "auto" }}
+                          />
+                        )}
+                        {content?.image3 && (
+                          <img
+                            src={content.image3}
+                            alt={content?.title + " 3"}
+                            style={{ maxWidth: "100%", height: "auto" }}
+                          />
+                        )}
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            );
-          })}
+              );
+            })}
+          </div>
         </div>
       </div>
-    </div>
     </>
   );
 };

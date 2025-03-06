@@ -1551,7 +1551,14 @@ a {
   font-weight: 600;
   padding-top: 10px;
 }
+.excerciseImage img {
+  height: 200px;
+  width: 200px;
+}
 @media screen and (max-width: 575px) {
+  .tabsContainerParent {
+    margin: 20px 0 !important;
+  }
   .DetailsContainer{
     padding-inline: 0 !important;
   }
@@ -1562,6 +1569,7 @@ a {
 }
 /* Ensure responsiveness */
 @media (max-width: 768px) {
+
   .QuickLinksParent p {
     font-size: 14px;
     font-weight: 600;
@@ -1592,6 +1600,10 @@ a {
 }
 
 @media screen and (max-width: 991px) {
+  .excerciseImage img {
+    height: 100%;
+    width: 100%;
+  }
   a.nav-link.active-link {
     border: none !important;
   }
@@ -1619,10 +1631,7 @@ a {
     padding-top: 80px;
   }
 }
-.excerciseImage img {
-  height: 200px;
-  width: 200px;
-}
+
 .commonButton {
   background-color: #08749b;
   color: #fff;
