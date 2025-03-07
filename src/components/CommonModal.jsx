@@ -65,52 +65,28 @@ const CommonModal = ({ selectedDate }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setIsLoading(true);
-    const formErrors = validateForm();
-
-    if (Object.keys(formErrors).length === 0) {
-      try {
-        const response = await fetch("http://localhost/forms/contact.php", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(formData),
-        });
-
-        const data = await response.json(); // Parse JSON response here
-
-        if (response.ok) {
-          // Check if the response status is OK (200-299)
-          if (data.status === "success") {
-            // Redirect to another page after successful form submission
-            window.location.href = "http://localhost/forms/thankyou.html"; // Replace with your desired redirect URL
-          } else {
-            // Handle the errors or display the error message from the backend
-            console.error("Error:", data.message);
-            setModalMessage(
-              data.message || "An error occurred. Please try again."
-            );
-          }
-        } else {
-          // Handle non-2xx HTTP responses
-          console.error("Error:", data.message);
-          setModalMessage(
-            data.message || "An error occurred. Please try again."
-          );
-        }
-      } catch (error) {
-        console.error("Error submitting form:", error);
-        setModalMessage("An error occurred. Please try again later.");
-      }
-    } else {
-      setErrors(formErrors);
-      setModalMessage("Please correct the errors in the form.");
+  
+    const validationErrors = validateForm();
+    setErrors(validationErrors);
+  
+    if (Object.keys(validationErrors).length > 0) {
+      return; // Stop form submission if there are validation errors
     }
-
-    setIsLoading(false);
-    setShowModal(true);
+  
+    setIsLoading(true);
+  
+    // Define redirection links
+    const redirectionLinks = {
+      Address1: "https://www.omegahospitals.com/doctors/dr-jayini-p-rammohen",
+      Address2: "https://your-nallagandla-clinic-link.com",
+    };
+  
+    // Navigate to the respective link
+    if (formData.address && redirectionLinks[formData.address]) {
+      window.location.href = redirectionLinks[formData.address];
+    }
   };
+  
 
   return (
     <div className="CommonModal-parent">
@@ -275,7 +251,7 @@ const CommonModal = ({ selectedDate }) => {
                       ? "Submitting please wait..."
                       : "Request Appointment"}
                   </button>
-                  <button type="button" data-bs-dismiss="modal">
+                  <button type="button" data-bs-dismiss="modal" >
                     Cancel
                   </button>
                 </div>

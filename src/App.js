@@ -7,7 +7,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ServicesPage from "./components/services/ServicesPage";
 import PatientEducation from "./components/education/PatientEducation";
 import ContactUspage from "./components/contact/ContactUspage";
-import { useEffect ,useState} from "react";
+import { useEffect, useState } from "react";
 import Blogsingle from "./components/blogsingle/Blogsingle";
 import Gallery from "./components/gallery/Gallery";
 import PhysiotherapyTabs from "./components/physiotherapy/PhysiotherapyTabs";
@@ -35,8 +35,8 @@ const ScrollToTop = () => {
   };
 
   return (
-    <button 
-      className={`scroll-to-top ${isVisible ? "show" : ""}`} 
+    <button
+      className={`scroll-to-top ${isVisible ? "show" : ""}`}
       onClick={scrollToTop}
     >
       ↑
@@ -58,8 +58,8 @@ function App() {
           <Route path="/blog-single" element={<Blogsingle />} />
           <Route path="/physiotherapy" element={<PhysiotherapyTabs />} />
           <Route path="/gallery" element={<Gallery />} />
-          <Route path="/yasnwanth-pokala" element={<YashwanthPokala/>} />
-          <Route path="/JayiniRammohen" element={<JayiniRammohen/>} />
+          <Route path="/yasnwanth-pokala" element={<YashwanthPokala />} />
+          <Route path="/JayiniRammohen" element={<JayiniRammohen />} />
         </Routes>
         <div class="floating_btn">
           <a
@@ -73,8 +73,8 @@ function App() {
           </a>
           <p class="text_icon">Talk to us?</p>
         </div>
-          {/* Scroll to Top Button */}
-          <ScrollToTop />
+        {/* Scroll to Top Button */}
+        <ScrollToTop />
         <Footer />
       </BrowserRouter>
     </div>
