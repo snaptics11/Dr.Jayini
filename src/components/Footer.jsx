@@ -85,8 +85,8 @@ const Footer = () => {
                     <div>
                       <p className="mb-2">Address :</p>
                       <p>
-                      RISE Commercial Complex, 3rd Floor, Over Van Lavino
-                        Cafe, Opp. to APARNA SAROVAR GRANDE,
+                      RISE commercial complex, 3rd floor, over van lavino
+                        cafe, opp. to Aparna sarovar grande,
                         Nallagandla,Telangana 500019.
                       </p>
                     </div>

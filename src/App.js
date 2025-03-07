@@ -7,12 +7,42 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ServicesPage from "./components/services/ServicesPage";
 import PatientEducation from "./components/education/PatientEducation";
 import ContactUspage from "./components/contact/ContactUspage";
-import { useEffect } from "react";
+import { useEffect ,useState} from "react";
 import Blogsingle from "./components/blogsingle/Blogsingle";
 import Gallery from "./components/gallery/Gallery";
 import PhysiotherapyTabs from "./components/physiotherapy/PhysiotherapyTabs";
 import YashwanthPokala from "./components/doctor-desc/YashwanthPokala";
 import JayiniRammohen from "./components/doctor-desc/JayiniRammohen ";
+// Scroll To Top Component
+const ScrollToTop = () => {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const toggleVisibility = () => {
+      if (window.scrollY > 300) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+    };
+
+    window.addEventListener("scroll", toggleVisibility);
+    return () => window.removeEventListener("scroll", toggleVisibility);
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  return (
+    <button 
+      className={`scroll-to-top ${isVisible ? "show" : ""}`} 
+      onClick={scrollToTop}
+    >
+      ↑
+    </button>
+  );
+};
 
 function App() {
   return (
@@ -43,6 +73,8 @@ function App() {
           </a>
           <p class="text_icon">Talk to us?</p>
         </div>
+          {/* Scroll to Top Button */}
+          <ScrollToTop />
         <Footer />
       </BrowserRouter>
     </div>

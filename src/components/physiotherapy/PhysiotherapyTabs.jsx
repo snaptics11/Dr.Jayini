@@ -138,6 +138,7 @@ const styles = {
     marginBottom: "10px",
     fontWeight: "600",
   },
+
 };
 
 export default PhysiotherapyTabs;
