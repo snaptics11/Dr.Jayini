@@ -1,5 +1,9 @@
 import React, { useEffect, useState } from "react";
-
+const modalElement = document.getElementById("exampleModal");
+if (modalElement) {
+  const modalInstance = new window.bootstrap.Modal(modalElement);
+  modalInstance.hide();
+}
 // Utility function to format the date
 const formatDate = (date) => {
   const d = new Date(date);
@@ -20,10 +24,29 @@ const CommonModal = ({ selectedDate }) => {
   });
 
   useEffect(() => {
-    if (selectedDate) {
-      setFormData((prev) => ({ ...prev, date: formatDate(selectedDate) }));
+    const resetForm = () => {
+      setFormData({
+        address: "",
+        date: formatDate(new Date()),
+        time: "",
+        name: "",
+        phonenumber: "",
+        email: "",
+      });
+      setIsLoading(false);
+    };
+
+    const modalElement = document.getElementById("exampleModal");
+    if (modalElement) {
+      modalElement.addEventListener("hidden.bs.modal", resetForm);
     }
-  }, [selectedDate]);
+
+    return () => {
+      if (modalElement) {
+        modalElement.removeEventListener("hidden.bs.modal", resetForm);
+      }
+    };
+  }, []);
 
   const [errors, setErrors] = useState({});
   const [showModal, setShowModal] = useState(false);
@@ -62,31 +85,45 @@ const CommonModal = ({ selectedDate }) => {
       errors.phonenumber = "Phone number is invalid";
     return errors;
   };
-
   const handleSubmit = async (e) => {
     e.preventDefault();
-  
+
     const validationErrors = validateForm();
     setErrors(validationErrors);
-  
+
     if (Object.keys(validationErrors).length > 0) {
       return; // Stop form submission if there are validation errors
     }
-  
+
     setIsLoading(true);
-  
+
     // Define redirection links
     const redirectionLinks = {
       Address1: "https://www.omegahospitals.com/doctors/dr-jayini-p-rammohen",
-      Address2: "https://your-nallagandla-clinic-link.com",
+      Address2: "/",
     };
-  
-    // Navigate to the respective link
+
+    // Open link in a new tab
     if (formData.address && redirectionLinks[formData.address]) {
-      window.location.href = redirectionLinks[formData.address];
+      window.open(redirectionLinks[formData.address], "_blank");
     }
+
+    // Close the modal and reset the form fields
+    setTimeout(() => {
+      document.querySelector('[data-bs-dismiss="modal"]')?.click(); // Close modal
+
+      setFormData({
+        address: "", 
+        date: formatDate(new Date()),
+        time: "",
+        name: "",
+        phonenumber: "",
+        email: "",
+      });
+
+      setIsLoading(false);
+    }, 1000);
   };
-  
 
   return (
     <div className="CommonModal-parent">
@@ -111,7 +148,7 @@ const CommonModal = ({ selectedDate }) => {
               ></button>
             </div>
             <div class="modal-body">
-              <form onSubmit={handleSubmit}>
+              <form key={JSON.stringify(formData)} onSubmit={handleSubmit}>
                 <h5>Choose Location</h5>
                 <div className="modal-locations">
                   <div className="contact-location">
@@ -122,12 +159,16 @@ const CommonModal = ({ selectedDate }) => {
                         id="address"
                         onChange={handleInputChange}
                         value="Address1"
+                        checked={formData.address === "Address1"}
                       />
                       <i className="fa-solid fa-location-dot"></i>
                     </div>
                     <div>
                       <h5>Omega Hospital</h5>
-                      <p>CHR Lane, Rd Number 1, Seven Hills Colony, Gachibowli, Hyderabad, Telangana 500032</p>
+                      <p>
+                        CHR Lane, Rd Number 1, Seven Hills Colony, Gachibowli,
+                        Hyderabad, Telangana 500032
+                      </p>
                     </div>
                   </div>
                   <div className="contact-location">
@@ -138,6 +179,7 @@ const CommonModal = ({ selectedDate }) => {
                         id="address"
                         onChange={handleInputChange}
                         value="Address2"
+                        checked={formData.address === "Address2"}
                       />
                       <i className="fa-solid fa-location-dot"></i>
                     </div>
@@ -251,7 +293,7 @@ const CommonModal = ({ selectedDate }) => {
                       ? "Submitting please wait..."
                       : "Request Appointment"}
                   </button>
-                  <button type="button" data-bs-dismiss="modal" >
+                  <button type="button" data-bs-dismiss="modal">
                     Cancel
                   </button>
                 </div>
