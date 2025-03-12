@@ -43,7 +43,7 @@ const AboutBanner = () => {
                                     <h4 className='text-success'>Dr Jayini P Ram Mohan </h4>
                                     <p>Jayini P Rammohen is a leading and reputed Orthopedician and Joint Replacement Surgeon. He has 28+ years of experience.</p>
                                     <br />
-                                    <p>His expertise includes cruciate ligament reconstruction, frozen shoulder treatment, sports injury treatment/rehabilitation, primary hip & knee arthroplasty, soft tissue injury management, revision hip & knee arthroplasty, articular degenerative disease treatment, Achilles tendon rupture treatment, pain management/counselling, etc.</p>
+                                    <p>His expertise includes Knee Replacement, Hip Replacement, Reverse Shoulder Arthroplasty, Acl Reconstruction, cruciate ligament reconstruction, frozen shoulder treatment, sports injury treatment/rehabilitation, primary hip & knee arthroplasty, soft tissue injury management, revision hip & knee arthroplasty, articular degenerative disease treatment, Achilles tendon rupture treatment, pain management/counselling, etc.</p>
 
                                     <button className='bgn btn-success  mt-3  commonButton'><Link className='text-white' to="/JayiniRammohen">Read More</Link></button>
 
