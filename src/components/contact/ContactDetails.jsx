@@ -33,8 +33,8 @@ const ContactDetails = () => {
                                     <div className="contact-location">
                                         <i className="fa-solid fa-location-dot"></i>
                                         <div>
-                                            <h5>Address 1</h5>
-                                            <p>Omega Hospital ,<br />
+                                            <h5>Omega Hospital</h5>
+                                            <p>
                                             CHR Lane, Rd Number 1, Seven Hills Colony, Gachibowli, Hyderabad, Telangana 500032
                                             </p>
                                         </div>
@@ -42,10 +42,10 @@ const ContactDetails = () => {
                                     <div className="contact-location">
                                         <i className="fa-solid fa-location-dot"></i>
                                         <div>
-                                            <h5>Address 2</h5>
+                                            <h5>Nallagandla Clinic</h5>
                                             <p>
                                                 Plot 101/D, RISE Commercial Complex, 3rd Floor, Over Van Lavino Cafe,
-                                                opp. to APARNA SAROVAR GRANDE, Nallagandla, Telangana 500019
+                                                opp. to Aparna Sarovar Grande, Nallagandla, Telangana 500019
                                             </p>
                                         </div>
                                     </div>
@@ -61,7 +61,7 @@ const ContactDetails = () => {
                                     <div className="contact-location">
                                         <i className="fa-solid fa-phone"></i>
                                         <div>
-                                            <h5>Book Appointment</h5>
+                                            <h5>Book An Appointment</h5>
                                             <p>
                                                 <a href="tel:+91-9137464646">+91 - 9137464646</a>
                                             </p>

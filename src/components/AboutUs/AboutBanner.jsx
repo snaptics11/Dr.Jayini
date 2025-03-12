@@ -41,14 +41,14 @@ const AboutBanner = () => {
                                 <div className='about-main-content'>
                                     <p><b>About</b> </p>
                                     <h4 className='text-success'>Dr Jayini P Ram Mohan </h4>
-                                    <p>Jayini P Rammohen is a leading and reputed Orthopedician and Joint Replacement Surgeon. He has over 25+ years of experience.</p>
+                                    <p>Jayini P Rammohen is a leading and reputed Orthopedician and Joint Replacement Surgeon. He has 28+ years of experience.</p>
                                     <br />
                                     <p>His expertise includes cruciate ligament reconstruction, frozen shoulder treatment, sports injury treatment/rehabilitation, primary hip & knee arthroplasty, soft tissue injury management, revision hip & knee arthroplasty, articular degenerative disease treatment, Achilles tendon rupture treatment, pain management/counselling, etc.</p>
 
                                     <button className='bgn btn-success  mt-3  commonButton'><Link className='text-white' to="/JayiniRammohen">Read More</Link></button>
 
                                     <div className='about-buttons'  id='aboutYashwanth'>
-                                        <button><Link to='/contact-us'>Book Appointment</Link></button>
+                                        <button><Link to='/contact-us'>Book An Appointment</Link></button>
                                         <button> <i class="fa-solid fa-phone me-2"></i> <a href="tel:9137464646">9137464646</a></button>
 
                                     </div>
@@ -79,7 +79,7 @@ const AboutBanner = () => {
                                     <button className='bgn btn-success  mt-3  commonButton'><Link className='text-white' to="/yasnwanth-pokala">Read More</Link></button>
 
                                     <div className='about-buttons'>
-                                        <button><Link to='/contact-us'>Book Appointment</Link></button>
+                                        <button><Link to='/contact-us'>Book An Appointment</Link></button>
                                         <button> <i class="fa-solid fa-phone me-2"></i> <a href="tel:9137464646">9137464646</a></button>
                                     </div>
 

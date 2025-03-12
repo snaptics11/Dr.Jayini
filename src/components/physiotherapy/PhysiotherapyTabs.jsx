@@ -36,7 +36,7 @@ const PhysiotherapyTabs = () => {
 
               return (
                 <div key={index}>
-                  <div className="row align-items-center border p-3 mb-3 border-bottom">
+                  <div className="row align-items-center border p-3 mb-3 border-bottom responsiveTabs">
                     <div className="col-md-8">
                       <h4
                         style={{

@@ -5,7 +5,7 @@ const Reviews = () => {
         <>
             <div className='Reviews-parent'>
                 <div className='Reviews-sub-parent'>
-                    <div className="container">
+                    <div className="container-lg">
                     <div className="row p-0 m-0 text-white align-items-center">
                         <div className="col-md-10">
                             <div className='review-content'>

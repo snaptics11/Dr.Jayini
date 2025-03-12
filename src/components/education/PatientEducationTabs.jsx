@@ -190,7 +190,10 @@ const PatientEducationTabs = () => {
       {/* Content Container */}
       <div className="contentContainer-tabs" style={styles.contentContainer}>
         {/* Sub Tabs */}
+        
         <div className="subTabsContainer" style={styles.subTabsContainer}>
+        <h5 class="text-dark d-lg-none fw-bold">Know More About : </h5> <br />
+
           {patientEducationData[activeTab].subTabs.map((subTab, index) => (
             <button
               key={index}

@@ -27,7 +27,7 @@ const Counter = () => {
 
   useEffect(() => {
     const duration = 2000; // Set the same duration for all counters
-    animateCounter(setYears, 23, duration);
+    animateCounter(setYears, 28, duration);
     animateCounter(setPatients, 40000, duration);
     animateCounter(setSurgeries, 25000, duration);
     animateCounter(setAwards, 12, duration);

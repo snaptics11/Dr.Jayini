@@ -12,9 +12,9 @@ const Footer = () => {
           </div>
           <div className="col-lg-12 mx-auto">
             <div className="row m-0">
-              <div className="col-md-3">
+              <div className="col-md-6 col-lg-3">
                 <div className="footer-links QuickLinksParent">
-                  <h5>About Us</h5>
+                  <h5 className="hideMobile">About Us</h5>
                   <Link to="/" data-discover="true" contenteditable="false" style={{cursor:"pointer"}}>
                     <div class="navbar-logo">
                       <img src="/assets/images/jayanilogo.jpg" alt="" />
@@ -25,7 +25,7 @@ const Footer = () => {
               </div>
 
 
-              <div className="col-md-3">
+              <div className="col-md-6 col-lg-3">
                 <div className="footer-links">
                   <h5>Our Services</h5>
                   <ul>
@@ -53,7 +53,7 @@ const Footer = () => {
                   </ul>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-6 col-lg-3">
                 <div className="footer-content1">
                   <h5>Omega Hospital :</h5>
                   <div className="footer-address">
@@ -77,7 +77,7 @@ const Footer = () => {
                     </div>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-6 col-lg-3">
               <div className="footer-content1">
                   <h5>Nallagandla Clinic :</h5>
                   <div className="footer-address">

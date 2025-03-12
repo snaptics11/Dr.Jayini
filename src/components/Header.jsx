@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <>
  <div className="navbar-parent">
-        <div className="logoSection d-flex justify-content-between container py-2 align-items-center">
+        <div className="logoSection d-flex justify-content-between container-lg py-2 align-items-center">
           <Link to="">
             <div className="navbar-logo">
               <img src="/assets/images/jayanilogo.jpg" alt="" />
@@ -21,7 +21,7 @@ const Header = () => {
           </Link>
 
           <div className="d-flex gap-4 align-items-center">
-            <p style={{color:"#000"}}>Book Appointment</p>
+            <p style={{color:"#000"}}>Book An Appointment</p>
             <div>
               <p>
                 {" "}
@@ -29,9 +29,7 @@ const Header = () => {
               </p>
               <p>
                 {" "}
-                Kondapur :
-                <a className="mx-3" href="tel:+91-9362454545">
-                  +91 - 9362454545
+                Gachibowli :<a href="tel:+91-9362454545"> +91 - 9362454545
                 </a>
               </p>
             </div>

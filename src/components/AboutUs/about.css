@@ -238,16 +238,12 @@ position: relative;
         display: flex;
         gap: 15px;
         flex-wrap: wrap;
-        justify-content: center;
     }
     .educationText {
         text-align: center;
     }
     .locationHeading p{
         text-align: justify;
-    }
-    .about-content-sub{
-        text-align: center;
     }
     .about-review-text {
         padding: 20px;
