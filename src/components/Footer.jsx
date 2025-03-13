@@ -78,7 +78,7 @@ const Footer = () => {
                 </div>
               </div>
               <div className="col-md-6 col-lg-3">
-              <div className="footer-content1">
+              <div className="footer-content1 nallgandlaClinic">
                   <h5>Nallagandla Clinic :</h5>
                   <div className="footer-address">
                     <i class="fa-solid fa-location-dot"></i>

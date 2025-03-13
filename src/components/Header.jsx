@@ -25,11 +25,11 @@ const Header = () => {
             <div>
               <p>
                 {" "}
-                Nallagandla :<a href="tel:+91-9137464646"> +91 - 9137464646</a>
+                Nallagandla :<a href="tel:+919137464646"> +91 - 9137464646</a>
               </p>
               <p>
                 {" "}
-                Gachibowli :<a href="tel:+91-9362454545"> +91 - 9362454545
+                Omega Hospital :<a href="tel:+919362454545"> +91 - 9362454545
                 </a>
               </p>
             </div>

@@ -129,7 +129,7 @@ const CommonModal = () => {
 
                 {/* Modal Footer */}
                 <div className="modal-footer mt-4">
-                  <button type="submit" className="btn btn-primary px-4">Request Appointment</button>
+                  <button type="submit" className="btn btn-primary px-4">Request An Appointment</button>
                   <button type="button" className="btn btn-secondary px-4" data-bs-dismiss="modal">Cancel</button>
                 </div>
               

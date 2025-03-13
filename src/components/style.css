@@ -662,6 +662,9 @@ a {
   margin: auto;
 }
 @media screen and (max-width: 576px) {
+  .nallgandlaClinic{
+    padding-top: 20px;
+  }
   .QuickLinksParent{
     width: 100% !important;
   }
