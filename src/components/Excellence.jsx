@@ -12,7 +12,7 @@ const Excellence = () => {
                                 <div className='badge'>
                                     <img style={{ position: "relative" }} src="/assets/images/Rectangle 27.png" alt="" />
                                     <div className='badge-text'>
-                                        <h2>28+</h2>
+                                        <h2>23+</h2>
                                         <small>of</small>
                                         <p>experience</p>
                                     </div>
@@ -26,7 +26,7 @@ const Excellence = () => {
                                 <div className='excellence-content'>
                                     <p> <b>ABOUT</b></p>
                                     <h4>Best <span className='text-success fw-bold'>Orthopedic Doctor</span> in Hyderabad</h4>
-                                    <p>Jayini P Rammohen is a leading and reputed Orthopedician and Joint Replacement Surgeon. He has 28+ years of experience.</p> <br />
+                                    <p>Jayini P Rammohen is a leading and reputed Orthopedician and Joint Replacement Surgeon. He has 23+ years of experience.</p> <br />
                                     <p>His expertise includes Knee Replacement, Hip Replacement, Reverse Shoulder Arthroplasty, Acl Reconstruction, Cruciate ligament reconstruction, frozen shoulder treatment, sports injury treatment/rehabilitation, primary hip & knee arthroplasty, soft tissue injury management, revision hip & knee arthroplasty, articular degenerative disease treatment, Achilles tendon rupture treatment, pain management/counselling, etc.</p>
                                     <div className='excellence-content-sub'>
                                         <div className="onlineAppointment">

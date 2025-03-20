@@ -13,14 +13,14 @@ const Footer = () => {
           <div className="col-lg-12 mx-auto">
             <div className="row m-0">
               <div className="col-md-6 col-lg-3">
-                <div className="footer-links QuickLinksParent">
-                  <h5 className="hideMobile">About Us</h5>
+                <div className="footer-links QuickLinksParent d-flex align-items-center h-100">
+                  {/* <h5 className="hideMobile">About Us</h5> */}
                   <Link to="/" data-discover="true" contenteditable="false" style={{cursor:"pointer"}}>
                     <div class="navbar-logo">
                       <img src="/assets/images/jayanilogo.jpg" alt="" />
                     </div>
                   </Link>
-                  <p>Leading provider of orthopedic care and advanced physiotherapy, delivering expert treatment with cutting-edge technology.</p>
+                  {/* <p>Leading provider of orthopedic care and advanced physiotherapy, delivering expert treatment with cutting-edge technology.</p> */}
                 </div>
               </div>
 
@@ -59,7 +59,7 @@ const Footer = () => {
                   <div className="footer-address">
                     <i class="fa-solid fa-location-dot"></i>
                     <div>
-                      <p className="mb-2">Address :</p>
+                      <p className="mb-2"><a target="_blank" href="https://maps.app.goo.gl/ZzQ9sEDshgmpUKpk9">Address :</a></p>
                       <p>
                       CHR lane, road number 1, seven hills colony, Gachibowli, Hyderabad, Telangana 500032.
                       </p>
@@ -83,10 +83,10 @@ const Footer = () => {
                   <div className="footer-address">
                     <i class="fa-solid fa-location-dot"></i>
                     <div>
-                      <p className="mb-2">Address :</p>
+                      <p className="mb-2"><a target="_blank" href="https://maps.app.goo.gl/BJKuW74YEwLYi7kR6">Address :</a></p>
                       <p>
-                      RISE commercial complex, 3rd floor, over van lavino
-                        cafe, opp. to Aparna sarovar grande,
+                      RISE commercial complex, 3rd floor, over Van Lavino
+                        Cafe,
                         Nallagandla,Telangana 500019.
                       </p>
                     </div>

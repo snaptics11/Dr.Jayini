@@ -19,7 +19,7 @@ const ABoutReviews = () => {
                     {/* Swiper Component */}
                     <Swiper
                         spaceBetween={30}    // Space between slides
-                        slidesPerView={2}    // Number of slides to show at once
+                        slidesPerView={1}    // Number of slides to show at once
                         loop={true}          // Infinite loop
                         autoplay={{
                             delay: 3000,     
@@ -29,28 +29,7 @@ const ABoutReviews = () => {
                             clickable: true,   // Enable clickable pagination
                         }}
                         modules={[Pagination, Autoplay]}
-                        breakpoints={{
-                            // When window width is >= 320px
-                            320: {
-                                slidesPerView: 1,  // 1 slide visible
-                                spaceBetween: 20,   // 20px space between slides
-                            },
-                            // When window width is >= 768px (tablets)
-                            768: {
-                                slidesPerView: 2,  // 2 slides visible
-                                spaceBetween: 30,   // 30px space between slides
-                            },
-                            // When window width is >= 1024px (desktops)
-                            1024: {
-                                slidesPerView: 2,  // 3 slides visible
-                                spaceBetween: 40,   // 40px space between slides
-                            },
-                            // When window width is >= 1440px (large screens)
-                            1440: {
-                                slidesPerView: 2,  // 4 slides visible
-                                spaceBetween: 50,   // 50px space between slides
-                            },
-                        }}  // Import necessary modules
+                        
                     >
                         {/* Slide 1 */} <br /><br />
                         <SwiperSlide>

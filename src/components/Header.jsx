@@ -24,12 +24,10 @@ const Header = () => {
             <p style={{color:"#000"}}>Book An Appointment</p>
             <div>
               <p>
-                {" "}
-                Nallagandla :<a href="tel:+919137464646"> +91 - 9137464646</a>
+                Nallagandla : <a className="mx-md-5" href="tel:+919137464646"> +91 - 9137 45 45 45</a>
               </p>
               <p>
-                {" "}
-                Omega Hospital :<a href="tel:+919362454545"> +91 - 9362454545
+                Omega Hospital :<a style={{paddingLeft:"2px"}} className="mx-md-2" href="tel:+919362454545"> +91 - 9362 45 45 45
                 </a>
               </p>
             </div>

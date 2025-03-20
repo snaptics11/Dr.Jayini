@@ -38,7 +38,7 @@ a {
 .banner-left {
   background: url("/public/assets/images/image\ 49.png") center/cover no-repeat,
     #013aa5;
-    height: 100%;
+  height: 100%;
 }
 
 .banner-row {
@@ -85,12 +85,12 @@ a {
 }
 
 .banner-right {
-  width: 110%;
+  width: 100%;
   height: 100%;
   border-radius: 50% 0px 0px 50%;
   overflow: hidden;
   position: relative;
-  right: 50px;
+  /* right: 50px; */
 }
 .banner-right .background-video {
   height: 100%;
@@ -158,7 +158,6 @@ a {
   width: 100%;
   object-fit: cover;
   border-radius: 20px;
-
 }
 
 .excellence-sub-parent .row {
@@ -518,12 +517,12 @@ a {
 
 .footer-address p:nth-child(1) {
   font-weight: 600;
-  text-decoration: underline;
   color: #0591bf;
 }
 
 .footer-parent a {
   color: #000;
+  text-decoration: none !important;
 }
 
 .footer-contact {
@@ -635,6 +634,7 @@ a {
 .review-content img {
   height: 190px;
   width: 190px;
+  padding: 15px;
 }
 .orthoneeds-sub.text-center .col-lg-3 {
   padding: 4px;
@@ -642,7 +642,7 @@ a {
 .homepageOurLocationsSection {
   padding-block: 80px;
 }
-.onlineAppointment a{
+.onlineAppointment a {
   background: red;
   color: #fff;
   padding: 5px 10px;
@@ -657,15 +657,18 @@ a {
   max-width: 1150px;
   margin: auto;
 }
-.orthoneeds-parent-sub.py-5,.homepageOurLocationsSection.py-5,.footer-sub-parent{
+.orthoneeds-parent-sub.py-5,
+.homepageOurLocationsSection.py-5,
+.footer-sub-parent {
   max-width: 1500px;
   margin: auto;
 }
+
 @media screen and (max-width: 576px) {
-  .nallgandlaClinic{
+  .nallgandlaClinic {
     padding-top: 20px;
   }
-  .QuickLinksParent{
+  .QuickLinksParent {
     width: 100% !important;
   }
   .d-flex.gap-4.align-items-center {
@@ -1025,19 +1028,19 @@ a {
 }
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
-  .QuickLinksParent{
+  .QuickLinksParent {
     width: 100% !important;
   }
   .navbar-logo {
     height: 90px;
     width: 180px;
-}
-.d-flex.gap-4.align-items-center {
-  flex-direction: column;
-  gap: 10px !important;
-  text-align: right;
-  align-items: flex-end !important;
-}
+  }
+  .d-flex.gap-4.align-items-center {
+    flex-direction: column;
+    gap: 10px !important;
+    text-align: right;
+    align-items: flex-end !important;
+  }
   .banner-left p {
     margin: auto !important;
   }
@@ -1100,7 +1103,6 @@ a {
     margin: auto;
     padding-bottom: 20px;
     height: 100%;
-
   }
 
   .navbar-expand-lg .container {
@@ -1286,7 +1288,7 @@ a {
 } */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-  .excellence-sub-parent{
+  .excellence-sub-parent {
     background: none;
   }
   .footer-content1 {
@@ -1307,14 +1309,14 @@ a {
   }
   .QuickLinksParent {
     width: 100% !important;
-}
-.footer-sub-parent {
-  width: 90%;
-  margin: auto;
-}
-.QuickLinksParent p {
-  font-size: 13px;
-}
+  }
+  .footer-sub-parent {
+    width: 90%;
+    margin: auto;
+  }
+  .QuickLinksParent p {
+    font-size: 13px;
+  }
 
   .excellence-content h4 {
     font-size: 22px;
@@ -1420,39 +1422,42 @@ a {
     gap: 20px;
   }
 }
-@media screen and (max-width:992px){
-  .responsiveTabs{
+@media screen and (max-width: 992px) {
+  .responsiveTabs {
     flex-direction: column-reverse !important;
   }
-  .excellence-sub-parent{
+  .excellence-sub-parent {
     background: none;
   }
   .excellence-sub-parent .col-md-4.position-relative {
     left: 0;
-}
+  }
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   .excellence-image {
     height: 400px;
-    width: 101%;}
-  .footer-content1 p, .footer-content1 a, .footer-links a {
+    width: 101%;
+  }
+  .footer-content1 p,
+  .footer-content1 a,
+  .footer-links a {
     font-weight: 600;
-    font-size: 13px;
-}
+    font-size: 11px;
+  }
 
-.QuickLinksParent p {
-  font-size: 13px;
-}
-.banner-left h3 {
-  font-size: 24px;
-}
-.banner-left p {
-  font-size: 13px;
-}
-.QuickLinksParent {
-  width: 100% !important;
-  margin: auto;
-}
+  .QuickLinksParent p {
+    font-size: 13px;
+  }
+  .banner-left h3 {
+    font-size: 24px;
+  }
+  .banner-left p {
+    font-size: 13px;
+  }
+  .QuickLinksParent {
+    width: 100% !important;
+    margin: auto;
+  }
   .navbar-nav a {
     font-weight: 600;
     font-size: 12px;
@@ -1630,9 +1635,15 @@ a {
   font-weight: 600;
   padding-top: 10px;
 }
+.excerciseImage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .excerciseImage img {
   height: 200px;
-  width: 200px;
+  width: 100%;
 }
 .scroll-to-top {
   position: fixed;
@@ -1659,12 +1670,38 @@ a {
 .scroll-to-top:hover {
   background-color: #0056b3;
 }
+.innerTabsContainerMainParent{
+  width: 300px;
+}
+.innerTabsContainer{
+  z-index: 9;
+}
+/* @media screen and (min-width:991px){
+  .innerTabsContainer{
+    z-index: 9;
+    position: fixed;
+  }
+} */
+ .calender-parent button{
+  border: none;
+  margin-top: 15px;
+  padding: 7px 10px;
+  background-color: red;
+  color: #fff;
+ }
+ .calender-parent button a{
+  color: #fff;
+ }
+ .calender-parent .contact-location{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 10px;
 
+ }
 @media screen and (max-width: 575px) {
   .tabsContainerParent {
     margin: 20px 0 !important;
   }
-  .DetailsContainer{
+  .DetailsContainer {
     padding-inline: 0 !important;
   }
   .education-sub-parent .nav-item button,
@@ -1674,11 +1711,11 @@ a {
 }
 /* Ensure responsiveness */
 @media (max-width: 768px) {
-  .excellence-sub-parent{
+
+  .excellence-sub-parent {
     padding-bottom: 0;
-    
   }
-  .excellence-sub-parent{
+  .excellence-sub-parent {
     background: none;
   }
 
@@ -1712,6 +1749,19 @@ a {
 }
 
 @media screen and (max-width: 991px) {
+  .innerTabsContainerMainParent{
+    width: 100%;
+  }
+  /* .innerTabsContainer {
+    position: fixed;
+    width: 100%;
+    top: 155px;
+    height: fit-content;
+    z-index: 99;
+  }
+  .tabsContent-Conatiner{
+    margin-top: 140px;
+  } */
   .excerciseImage img {
     height: 100%;
     width: 100%;
@@ -1722,8 +1772,8 @@ a {
   .footer-sub-parent h5 {
     margin-top: 20px;
   }
-  .hideMobile{
-   display: none;
+  .hideMobile {
+    display: none;
   }
   .footer-parent {
     padding-top: 30px;
@@ -1796,4 +1846,10 @@ a.nav-link.active-link {
   .DetailsContainer {
     margin-top: 30px;
   }
+}
+@media screen and (min-width:1199px) and (max-width:1400px){
+  .footer-content1 p, .footer-content1 a, .footer-links a {
+    font-weight: 600;
+    font-size: 15px;
+}
 }

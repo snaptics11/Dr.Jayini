@@ -10,8 +10,9 @@ const PhysiotherapyTabs = () => {
     <>
       <CommonBanner title={"Physiotherapy"} />
 
-      <div className="container-lg">
+      <div className="container-lg p-0">
         <div className="tabsContainerParent" style={styles.container}>
+          <div className="innerTabsContainerMainParent lg-position-fixed">
           <div className="innerTabsContainer" style={styles.tabsContainer}>
             {tabs.map((tab, index) => (
               <button
@@ -22,6 +23,7 @@ const PhysiotherapyTabs = () => {
                 {tab.title}
               </button>
             ))}
+          </div>
           </div>
 
           <div
@@ -97,6 +99,7 @@ const styles = {
     borderRadius: "8px",
     overflow: "hidden",
   },
+  
   tabsContainer: {
     display: "flex",
     flexDirection: "column",
@@ -105,7 +108,7 @@ const styles = {
     borderRight: "1px solid #ccc",
     // marginTop: "200px",
     height: "fit-content",
-    border: "1px solid #ccc",
+    border: "1px solid #ccc"
   },
   tab: {
     padding: "15px 10px",

@@ -30,7 +30,7 @@ const AboutBanner = () => {
                                 <div className='about-mainimage'>
                                     <img src="/assets/images/Group 47652.png" alt="" />
                                     <div className='about-doctor-text'>
-                                        <h5>Dr Jayini P Ram Mohan</h5>
+                                        <h5>Dr Jayini P Rammohen</h5>
                                         <small>One of the Best Orthopedic Doctors In Hyderabad</small>
 
                                     </div>
@@ -40,8 +40,8 @@ const AboutBanner = () => {
                             <div className="col-md-6"  >
                                 <div className='about-main-content'>
                                     <p><b>About</b> </p>
-                                    <h4 className='text-success'>Dr Jayini P Ram Mohan </h4>
-                                    <p>Jayini P Rammohen is a leading and reputed Orthopedician and Joint Replacement Surgeon. He has 28+ years of experience.</p>
+                                    <h4 className='text-success'>Dr Jayini P Rammohen </h4>
+                                    <p>Jayini P Rammohen is a leading and reputed Orthopedician and Joint Replacement Surgeon. He has 23+ years of experience.</p>
                                     <br />
                                     <p>His expertise includes Knee Replacement, Hip Replacement, Reverse Shoulder Arthroplasty, Acl Reconstruction, cruciate ligament reconstruction, frozen shoulder treatment, sports injury treatment/rehabilitation, primary hip & knee arthroplasty, soft tissue injury management, revision hip & knee arthroplasty, articular degenerative disease treatment, Achilles tendon rupture treatment, pain management/counselling, etc.</p>
 
@@ -49,7 +49,7 @@ const AboutBanner = () => {
 
                                     <div className='about-buttons'  id='aboutYashwanth'>
                                         <button><Link to='/contact-us'>Book An Appointment</Link></button>
-                                        <button> <i class="fa-solid fa-phone me-2"></i> <a href="tel:9137464646">9137464646</a></button>
+                                        <button> <i class="fa-solid fa-phone me-2"></i> <a href="tel:9137454545">9137 45 45 45</a></button>
 
                                     </div>
 
@@ -80,7 +80,7 @@ const AboutBanner = () => {
 
                                     <div className='about-buttons'>
                                         <button><Link to='/contact-us'>Book An Appointment</Link></button>
-                                        <button> <i class="fa-solid fa-phone me-2"></i> <a href="tel:9137464646">9137464646</a></button>
+                                        <button> <i class="fa-solid fa-phone me-2"></i> <a href="tel:9137454545">9137 45 45 45</a></button>
                                     </div>
 
                                 </div>

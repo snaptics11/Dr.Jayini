@@ -14,7 +14,7 @@ const Banner = () => {
                                 </div>
                                 <div className='banner-content'>
                                     <h3>Dr. Jayini P Rammohen</h3>
-                                    <p> 28+ years of Excellence in Orthopedic & Joint Replacement Surgery</p>
+                                    <p> 23+ years of Excellence in Orthopedic & Joint Replacement Surgery</p>
                                     <button style={{backgroundColor:"red"}} className='btn mt-2 text-white'>
                                         <Link to='/contact-us'>BOOK AN APPOINTMENT</Link>
                                     </button>
