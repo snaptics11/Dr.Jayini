@@ -23,7 +23,7 @@ const Reviews = () => {
                     <div className="review-content">
                       <div>
                         <div className="d-flex justify-content-center">
-                          <img src="/assets/images/Group 18.png" alt="" />
+                          <img src="/assets/images/about-review.png" alt="" />
                         </div>
                       </div>
                       <div className="review-text">
@@ -42,7 +42,7 @@ const Reviews = () => {
                     <div className="review-content">
                       <div>
                         <div className="d-flex justify-content-center">
-                          <img src="/assets/images/Group 18.png" alt="" />
+                          <img src="/assets/images/profile (2).png" alt="" />
                         </div>
                       </div>
                       <div className="review-text">
@@ -57,7 +57,7 @@ const Reviews = () => {
                     <div className="review-content">
                       <div>
                         <div className="d-flex justify-content-center">
-                          <img src="/assets/images/Group 18.png" alt="" />
+                          <img src="/assets/images/about-review2.png" alt="" />
                         </div>
                       </div>
                       <div className="review-text">
@@ -71,7 +71,7 @@ const Reviews = () => {
                     <div className="review-content">
                       <div>
                         <div className="d-flex justify-content-center">
-                          <img src="/assets/images/Group 18.png" alt="" />
+                          <img src="/assets/images/Artboard 4.png" alt="" />
                         </div>
                       </div>
                       <div className="review-text">
@@ -81,21 +81,39 @@ const Reviews = () => {
                       </div>
                     </div>
                   </SwiperSlide>
+
+
+
+
                   <SwiperSlide>
                     <div className="review-content">
                       <div>
                         <div className="d-flex justify-content-center">
-                          <img src="/assets/images/Group 18.png" alt="" />
+                          <img src="/assets/images/profile (5).png" alt="" />
                         </div>
                       </div>
                       <div className="review-text">
                         <p>
-                        my in law sustained a leg fracture which happened back in July 1st week and i visited a clinic nearby my home and the orthopedician put a Plaster of Paris for him and after 45 days of removal he said my in law would require a surgery. Then I visited Dr. Jayini for his opinion and he checked my uncle and said he don't require a surgery and started him on partial weight bearing for two more weeks followed by now my in law is advised to start with out Walker and he is able to walk normally.
-                        And he is the real people's Doctor...
+                        My experience have been very good. I had pain in my knee and got it operated. The doctor suggested me good medication, injections and physiotherapy. Kudos to the experienced and cordial staff at the clinic .
                         </p>
                       </div>
                     </div>
                   </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="review-content">
+                      <div>
+                        <div className="d-flex justify-content-center">
+                          <img src="/assets/images/profile (4).png" alt="" />
+                        </div>
+                      </div>
+                      <div className="review-text">
+                        <p>
+                        My mother has underwent 2 TKR surgeries on different knees over the last 2 years. Jayini Sir is excellent with his diagnosis and patience. He recommends surgery only as a last resort. Focus is more on self-healing and food diet including supplements to augment bone weaknesses. Certainly recommended.
+                        </p>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+               
                 </Swiper>
               </div>
               <div className="col-md-2 text-center">

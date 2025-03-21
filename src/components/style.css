@@ -1643,7 +1643,8 @@ a {
 }
 .excerciseImage img {
   height: 200px;
-  width: 100%;
+  width: 90%;
+  margin: auto;
 }
 .scroll-to-top {
   position: fixed;

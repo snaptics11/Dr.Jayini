@@ -71,8 +71,8 @@ const AboutBanner = () => {
                             <div className="col-md-5">
                                 <div className='yashwanthPokala my-5'>
                                     <p><b>About</b> </p>
-                                    <h4 className='text-success'><b>Dr Yaswanth Pokala</b></h4>
-                                    <p>Yaswanth Pokala is an experienced Physiotherapist and Ergonomist with over 10 years of experience. </p>
+                                    <h4 className='text-success'><b>Dr Yashwanth Pokala</b></h4>
+                                    <p>Yashwanth Pokala is an experienced Physiotherapist and Ergonomist with over 10 years of experience. </p>
                                     <br />
                                     <p>His expertise includes sports injury rehabilitation, post-operative recovery, shoulder rotator cuff injuries, knee ligament & meniscus tears, slipped disc management, ergonomics, vertigo management, stroke rehabilitation, dry needling, cupping, and strength conditioning.</p>
 
@@ -80,7 +80,7 @@ const AboutBanner = () => {
 
                                     <div className='about-buttons'>
                                         <button><Link to='/contact-us'>Book An Appointment</Link></button>
-                                        <button> <i class="fa-solid fa-phone me-2"></i> <a href="tel:9137454545">9137 45 45 45</a></button>
+                                        <button> <i class="fa-solid fa-phone me-2"></i> <a href="tel:9137464646">9137 46 46 46</a></button>
                                     </div>
 
                                 </div>
@@ -90,7 +90,7 @@ const AboutBanner = () => {
                                 <div className='about-mainimage'>
                                     <img src="/assets/images/yashwanthPokala.jpg" alt="" />
                                     <div className='about-doctor-text'>
-                                        <h5>Dr Yaswanth Pokala</h5>
+                                        <h5>Dr Yashwanth Pokala</h5>
                                         <small>Head of Physiotherapy
                                         </small>
 

@@ -27,7 +27,7 @@ const ContactDetails = () => {
                   <h4>Contact Details :</h4>
                   <p>
                     Get in touch with us for any medical-related questions and
-                    about our projects.
+                    about our services.
                   </p>
 
                   <div className="contact-location">
@@ -67,7 +67,7 @@ const ContactDetails = () => {
                     <div>
                       <h5>Book An Appointment</h5>
                       <p>
-                        <a href="tel:+91-9137464646">+91 - 9137464646</a>
+                        <a href="tel:+91-9137454545">+91 - 9137454545</a>
                       </p>
                     </div>
                   </div>
@@ -120,7 +120,7 @@ const ContactDetails = () => {
                         <i class="fa-solid fa-phone"></i>
                         <a className="text-dark" href="+919137464646">+91 - 9137464646</a>
                       </div>
-                      <button><a target="_blank" href="https://calendly.com/jayiniclinics/appointment?month=2025-03"> Book An Appointment</a></button>
+                      <button><a target="_blank" href="https://calendly.com/jayiniphysio/consultation"> Book An Appointment</a></button>
                     </div>
                   </div>
                 </div>

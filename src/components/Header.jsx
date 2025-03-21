@@ -83,7 +83,7 @@ const Header = () => {
                         to="/about#aboutYashwanth"
                         onClick={() => setNavOpen(false)}
                       >
-                        Dr . Yashwant
+                        Dr . Yashwanth
                       </Link>
                     </li>
                     <li>

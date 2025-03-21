@@ -13,7 +13,7 @@ const YashwanthPokala = () => {
       <section className="text-center About-banner-content">
       <div className="container">
             <h1 className="display-3 fw-bold text-white">
-              Dr. Yaswanth Pokala
+              Dr. Yashwanth Pokala
             </h1>
             <p className="fon-weight-bold text-light fs-5 mb-3">
              <b> MPT (Sports Physical Therapist) & Ergonomist</b>
@@ -33,29 +33,29 @@ const YashwanthPokala = () => {
             <div className="col-lg-6">
               <img
                 src="/assets/images/yashwanthPokala.jpg"
-                alt="Dr. Yaswanth Pokala"
+                alt="Dr. YashwanthPokala"
                 className="img-fluid rounded yashwanthPokalaImage"
               />
             </div>
             <div className="col-lg-6 mt-4 mt-lg-0">
-              <h2 className="fw-bold mb-4">About Dr. Yaswanth Pokala</h2>
+              <h2 className="fw-bold mb-4">About Dr. Yashwanth Pokala</h2>
               <p className="lead mb-4 mobiletext">
                 At Jayini Physiotherapy, we prioritize your well-being by
                 combining advanced physiotherapy techniques with compassionate
-                care. Led by Yaswanth Pokala, an accomplished physiotherapist
+                care. Led by Yashwanth Pokala, an accomplished physiotherapist
                 with a passion for improving lives through movement, our clinic
                 is committed to providing exceptional care tailored to each
                 individual.
               </p>
               <p className="mb-4 mobiletext">
-                Yaswanth Pokala is a strong advocate of the philosophy that
+                Yashwanth Pokala is a strong advocate of the philosophy that
                 "exercise is medicine" and believes that movement is the key to
                 enhancing functionality. With expertise in Sports and Orthopedic
-                Specialties, Yaswanth combines empathy and skill to help
+                Specialties, Yashwanthcombines empathy and skill to help
                 patients recover, perform better, and lead healthier lives.
               </p>
               <p className="mb-4 mobiletext">
-                Currently, Yaswanth serves as the Head of the Physiotherapy
+                Currently, Yashwanthserves as the Head of the Physiotherapy
                 Department at Jayini Multi Speciality Clinics, ensuring the
                 highest standards of care for all patients.
               </p>
